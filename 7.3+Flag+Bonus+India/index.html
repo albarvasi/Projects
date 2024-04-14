@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    #border{
+        background-color: black;
+        padding: 12px;
+        position: fixed;
+        height: 600px;
+        width: 900px;
+        border-radius: 1.25%;
+       
+    }
+    .flag {
+      width: 900px;
+      height: 400px;
+      position: absolute;
+      background-color: #ce5a11fb;
+
+    }
+
+    .flag > div {
+      background-color: white;
+      height: 200px;
+      width: 100%;
+      position: absolute;
+      top: 200px;
+    }
+
+    .flag > div > div {
+      background-color: rgb(12, 26, 186);
+      position: absolute;
+
+      height: 170px;
+      width: 190px;
+      border-radius: 50%;
+      top: 17px;
+      left: 350px;
+    }
+  
+
+    p {
+      font-size: 5rem;
+      color: white;
+      text-align:center;
+      padding: 50px;
+      margin: 0;
+    }
+
+    .flag>div div p {
+      color: black;
+    }
+
+    .flag .green{
+        background-color: green;
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        top: 400px;
+
+    }
+    
+  </style>
+</head>
+<body>
+<div id="border">
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+      </div>
+    </div>
+    <div class = "green">
+        <p>of India</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
